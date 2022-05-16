@@ -33,8 +33,8 @@ namespace PdfToDocx
             //GetEnvelopInfoFromPdf();
             //Example01_WordTmplRendering();
 
-            Console.WriteLine("Done");
-            //Console.Read();
+            Console.WriteLine("Press any key to exit this program...");
+            Console.Read();
         }
 
 
@@ -256,25 +256,6 @@ namespace PdfToDocx
 
 
 
-
-        private static void ocr()
-        {
-            //TesseractEngine ocr;
-            //ocr = new TesseractEngine("", "chi_tra", EngineMode.Default);
-
-            //Pix pix = Pix.LoadFromMemory(png);
-            //Tesseract.Page tpage = ocr.Process(pix, PageSegMode.SingleBlock);
-            //string str = tpage.GetText();//識別後的內容
-            //tpage.Dispose();
-            //Console.WriteLine(str);
-
-            //pix = Pix.LoadFromFile($"img\\text-{pageNum}-{i}.png");
-            //tpage = ocr.Process(pix, PageSegMode.SingleBlock);
-            //str = tpage.GetText();//識別後的內容
-            //tpage.Dispose();
-            //Console.WriteLine(str);
-            //Console.WriteLine("----------------------------------");
-        }
 
 
     }
