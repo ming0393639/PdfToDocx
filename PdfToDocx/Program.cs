@@ -27,12 +27,6 @@ namespace PdfToDocx
             foreach (var path in args)
                 PdfToEnvelopDocx(path);
 
-
-            //PdfToEnvelopDocx("data\\成家美地整棟111H6000278REGA.pdf");
-
-            //GetEnvelopInfoFromPdf();
-            //Example01_WordTmplRendering();
-
             Console.WriteLine("Press any key to exit this program...");
             Console.Read();
         }

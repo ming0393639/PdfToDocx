@@ -35,10 +35,12 @@
 
   <ItemGroup>
     <Folder Include="TestPdf\" />
-    <Folder Include="Resources\" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="template.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="tessdata\chi_tra.traineddata">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
